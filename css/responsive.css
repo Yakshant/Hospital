@@ -1,0 +1,378 @@
+@media (max-width:768px) {
+    nav .navbar .navcontent {
+        display: none;
+    }
+    nav .navbar .navbtn .navpar {
+        display: none;
+    }
+    nav .navbar .icon {
+        display: block;
+    }
+    nav .navbar .navlogo h1 {
+        font-size: 20px;
+    }
+    nav .navbar .navlogo p {
+        font-size: 12px;
+    }
+    nav .navbar .navbtn .btn ul li {
+        margin-left: 0px;
+    }
+    nav .navbar .navbtn .btn ul li a {
+        font-size: 14px;
+    }
+    .menu{
+        grid-template-columns:100%;
+        padding: 8px;
+    }
+    .menu .sec-content .sec-had h1{
+        font-size: 27px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .menu .sec-content .sec-had p{
+        font-size: 13px;
+        text-align: center;
+    }
+    .menu .sec-hadding .hadding1{
+        font-size: 11px;
+    }
+    .menu .sec-hadding .hadding1 i{
+        font-size: 15px;
+
+    }
+    .menu .menu-img{
+        height: 300px;
+        margin-top: 25px;
+    }
+    h3{
+        padding-left: 10px;
+    }
+    .coloumn{
+        padding: 20px;
+    }
+    .pati-info{
+        margin: 17px;
+        margin-top: 0px;
+    }
+    .pati-info .data{
+        font-size: 10px;
+    }
+    .pati-info .data i{
+        font-size: 15px;
+        padding: 5px;
+    }
+    .doctor-info{
+        display: grid;
+        grid-template-columns: 100%;
+        margin: 15px;
+    }
+    .doctor-info .doctor-data1{
+        display: grid;
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+    .doctor-info .doctor-data1 h2{
+        font-size: 25px;
+    
+    }
+    .doctor-info .doctor-data1 p{
+        font-size: 13px;
+        margin-top: 13px;
+    }
+    .doctor-info .doctor-data1 button{
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    .doctor-info .doctor-data2 {
+        font-size: 12px;
+    }
+    .doctor-info .doctor-data2 i{
+        font-size: 20px;
+    }
+
+
+    /*------------------- about us---------------- */
+
+
+    .aboutus{
+        display: grid;
+        grid-template-columns: 100%;
+        text-align: center;
+        align-items: center;
+        padding: 12px;
+    }
+    #first h1{
+        font-size: 35px;
+        /* margin-top: 10px;   */
+    }
+    #first p{
+        font-size: 12px;
+        margin-top: -5px;
+    }
+    .photo img{
+        width: 100%;
+        height: 200px;
+    }
+
+    .abouthome{
+        display: grid;
+        grid-template-columns: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    .abouthome img{
+        width: 100%;
+        height: 300px;
+    }
+    .paragraph{
+        font-size: 12px;
+    }
+    .home .athome{
+        margin-top:15px;
+    }
+    .home .athome h1{
+        font-size: 25px;
+    }
+
+    .about-card{
+        font-size: 10px;
+    }
+    .about-card i{
+        font-size: 20px;
+    }
+
+    .service-card{
+        font-size: 10px;
+        padding: 12px;
+    }
+    .service-card i{
+        font-size: 15px;
+    }
+
+    .about-grid{
+        font-size: 15px;
+        padding: 12px;
+    }
+    .grid p{
+        font-size: 12px;
+    }
+    .grid i{
+        font-size: 30px;
+        padding: 5px;
+    }
+    .footer{
+        display: grid;
+        grid-template-columns: 100%;
+        padding: 12px;
+    }
+    .footer-grid{
+        font-size: 15px;
+    }
+   
+    /* ---------------department------------- */
+
+    .depart-sec{
+        display: grid;
+        grid-template-columns: 100%;
+        text-align: center;
+        padding: 12px;
+    }
+    .depart-grid h1{
+        font-size: 27px;
+    }
+    .depart-grid .pp{
+        font-size: 15px;
+    }
+    .inpu-btn {
+        margin-left: 70px;
+    }
+
+    .inpu-btn ul li{
+        padding: 0px;
+        border-radius: 2px;
+    }
+    .inpu-btn ul li a{
+        font-size: 15px;
+    }
+    .inpu-btn{
+        background-size: 100% 100%;
+    }
+    .department-card{
+        margin: 12px;
+    }
+    .health{
+        display: grid;
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+    .heal i{
+        margin-left: 0px;
+    }
+    .heal h4{
+        font-size: 17px;
+    }
+    .heal p{
+        font-size: 16px;
+    }
+    /*-------------- doctor------------- */
+
+    .doctors-sec{
+        display: grid;
+        grid-template-columns: 100%;
+        text-align: center;
+        padding: 12px;
+    }
+    .doctors-sec h1{
+        font-size: 25px;
+        margin-top: 3px;
+    }
+    .doctors-sec p{
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    .doc-img img{
+        height: 200px;
+    }
+    .doctor-part img{
+        width: 50%;
+        height: 200px;
+    }
+    .doctor-grid{
+        padding: 13px;
+        gap: 20px;
+    }
+    .find-doctor{
+        font-size: 10px;
+    }
+    
+
+
+    /* -----------Service---------- */
+
+    .services{
+        display: grid;
+        grid-template-columns: 100%;
+        padding: 12px;
+        text-align: center;
+    }
+    .our-service p{
+        font-size: 15px;
+    }
+    .our-service h1{
+        font-size: 20px;
+    }
+    .ser-a a{
+        font-size: 15px;
+    }
+
+    .ser-content{
+        padding: 12px;
+    }
+    .ser-content h1{
+        font-size: 25px;
+    }
+    .ser-pp{
+        font-size: 13px;
+    }
+    .service-grid{
+        padding: 12px;
+    }
+    .hospital-ser{
+        padding-left: -15px;
+    }
+    .user-ser{
+        font-size: 8px;
+    }
+    .user-ser i{
+        font-size: 15px;
+    }
+    .doc-service{
+        display: grid;
+        grid-template-columns: 100%;
+        text-align: center;
+        padding: 12px;
+    }
+    .doc-ser h1{
+        font-size: 25px;
+    }
+    .doc-ser ul li a{
+        font-size: 15px;
+    }
+
+    /* ------------Contact------------ */
+
+    .contacts{
+        display: grid;
+        grid-template-columns: 100%;
+        text-align: center;
+        padding: 12px;
+    }
+    .con-text p{
+        margin-top: 1px;
+    }
+    .con-img img{
+        width: 100%;
+        height: 200px;
+    }
+    .contact-grid{
+        display: grid;
+        grid-template-columns: 100%;
+        padding: 12x;
+    }
+    .con-card-1{
+        padding: 12px;
+    }
+
+    .cont-grid{
+        font-size: 10px;
+    }
+    .cont-card i{
+        font-size: 17px;
+        margin-left: -15px;
+    }
+
+    /* ----------Book Appointment---- */
+    .form-row {
+        display: flex;
+        flex-direction: column;
+    }
+    .book{
+        display: grid;
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+    .book-app1 h1{
+        font-size: 30px;
+    }
+    .book-app2 img{
+        width: 100%;
+        height: 180px;
+    }
+    .appointment{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .last i{
+        font-size: 25px;
+        margin-left: -10px;
+    }
+
+    .last h2{
+        font-size: 15px;
+    }
+    .last p{
+        font-size: 8px;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+

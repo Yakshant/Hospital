@@ -1,0 +1,1047 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(233, 253, 253);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    background-color: white;
+    padding: 15px;
+}
+
+.navlogo h1{
+    color: blueviolet;
+    font-size: 27px;
+}
+.navlogo p{
+    font-size: 15px;
+    color:rgb(116, 6, 116);
+}
+.navcontent ul{
+    display: flex;
+}
+.navcontent ul li{
+    list-style-type: none;
+    padding: 15px;
+    
+}
+.navcontent ul li a{
+    text-decoration: none;
+    color:rgb(122, 8, 122);
+    font-size: 20px;
+}
+.navbtn{
+    display: flex;
+    align-items: center;
+}
+.navbtn ul li{
+    list-style-type: none;
+}
+.navbtn ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+}
+.navpar{
+    font-size: 20px;
+}
+.navpar i{
+    color: blueviolet;
+    font-size: 25px;
+}
+.navpar span{
+    color: blueviolet;
+}
+
+.btn ul li{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 40px;
+    padding: 5px;
+    background-color: blueviolet;
+}
+.btn i{
+    color:white;
+    padding-right: 5px;
+}
+.icon   {
+    display: none;
+}
+
+/*-------------- Main------------ */
+
+.menu{
+    display: grid;
+    grid-template-columns:45% 55%;
+    background:linear-gradient(rgb(218, 250, 250),white);
+}
+.sec-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec-had span{
+    color:blueviolet;
+}
+.sec-had h1{
+    font-size: 45px;
+    color: rgb(150, 13, 150);
+}
+.sec-had p{
+    font-size: 20px;
+    margin-top: 10px;
+    color: purple;
+}
+
+.sec-btn ul{
+    display: flex;
+    margin-top: 30px;
+}
+.sec-btn .ul1{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+}
+.sec-btn .ul2{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(196, 147, 241);
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.sec-btn ul li{
+    list-style-type: none;
+}
+.sec-btn ul li a{
+    text-decoration: none;
+}
+.menu-img{
+    background-image:url('/Image/banners/image.png');
+    height: 450px;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+.sec-hadding{
+    display: flex;
+    margin-top: 30px;
+}
+.sec-hadding .hadding1{
+    display: flex;
+    align-items: center;
+}
+.sec-hadding .hadding1 i{
+    color: blueviolet;
+    font-size: 30px;
+    padding: 10px;
+}
+h3{
+   margin-top: 30px;
+}
+.coloumn{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    margin-top: 10px;
+}
+.col-card button{
+    border: none;
+    background-color:white;
+    color:rgb(104, 18, 104);
+    font-weight: bold;
+    padding-top: 20px;
+}
+.col-card button:hover{
+    cursor: pointer;
+}
+.col-card{
+    background-color:white;
+    padding: 30px 0px;
+    border-radius:5px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+.col-card:hover{
+    transform: translateY(-5px);
+}
+.col-card i{
+    color:rgb(200, 145, 252);
+    font-size: 35px;
+}
+.pati-info{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(209, 245, 245);
+    margin-top: 40px;
+    padding: 20px;
+}
+.pati-info .data{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+.pati-info .data i{
+    color: blueviolet;
+    font-size: 28px;
+    padding: 10px;
+    align-items: center;
+}
+.doctor-info{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin-top: 50px;
+    background-color:white;
+}
+.doctor-info .doctor-data1 .doctor-image {
+    background-image: url('/Image/banners/dcotor.png');
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-top: 10px;
+}
+.doctor-data1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.doctor-data1 h2{
+    font-size: 35px;
+    color: rgb(131, 15, 131);
+    margin-top: 15px;
+}
+.doctor-data1 p{
+    margin-top: 55px;
+}
+
+.doctor-data1 ul li{
+    font-size: 20px;
+    list-style-type: none;
+    margin-top:35px;
+}
+.doctor-data1 ul li a{
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    background-color: blueviolet;
+}
+.doctor-data2 div{
+    padding: 7px;
+}
+.doc-dat{
+    display: flex;
+    align-items: center;
+}
+.doc-dat i{
+    font-size: 30px;
+    color: rgb(237, 14, 237);
+}
+
+/* -----------------About Us-------------- */
+
+.container1{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+} 
+.aboutus{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgb(229, 252, 252);
+}
+#first{
+    margin: 50px 40px;
+    width: 50%;
+}
+#first h1{
+    font-size: 45px;
+}
+#first p{
+    font-size: 20px;
+}
+.p{
+    color: rgb(201, 22, 201);
+}
+
+.photo img{
+    width: 100%;
+    height: 340px;
+}
+
+
+.abouthome{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 50px;
+}
+.abouthome img{
+    width: 100%;
+    height: 380px;
+}
+
+.home{
+    padding: 20px;
+}
+
+.home h1{
+    margin-top: 10px;
+    color: rgb(142, 18, 142);
+}
+.home .paragraph{
+    margin-top: 30px;
+}
+
+.about-card{
+    display: flex;
+    justify-content: space-between;
+}
+.box-card{
+    text-align: center;
+    margin-top: 10px;
+}
+.box-card h3{
+    color: purple;
+}
+.box-card i{
+    font-size: 30px;
+    color: rgb(252, 12, 252);
+} 
+
+.ab-card{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(232, 250, 250);
+    padding: 18px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.card{
+    display: flex;
+    align-items: center;
+}
+.card i{
+    font-size: 35px;
+    color: rgb(222, 52, 222);
+    padding: 15px;
+}
+.service-card .card h2{
+    color: rgb(201, 16, 201);
+}
+
+.about-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgb(228, 249, 249);
+    margin-top: 30px;
+    padding: 10px;
+}
+.about-grid .h2{
+    color: purple;
+}
+.about-grid p{
+    font-size: 19px;
+    margin-top: 10px;
+} 
+.grid{
+    display: flex;
+    align-items: center;
+}
+.grid i{
+    font-size: 50px;
+    color: rgb(213, 75, 213);
+    padding: 10px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 64% 36%;
+    margin-top: 40px;
+    box-sizing: border-box;
+}
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 380px);
+}
+.foot{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+.foot i{
+    color: rgb(224, 65, 224);
+    font-size: 35px;
+    padding: 15px;
+}
+.foot h2{
+    color: rgb(97, 14, 97);
+    font-size: 25px;
+}
+
+.abo-img img{
+    width: 100%;
+    height: 230px;
+}
+
+.health{
+    background-color: rgb(218, 189, 245);
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.health ul li{
+    list-style-type: none;
+    font-size: 18px;
+}
+.health ul li a{
+    border-radius: 10px;
+    padding: 10px;  
+    background-color:blueviolet;
+    color: white;
+    text-decoration: none;
+}
+.health ul li a:hover{
+    color: white;
+    background-color: purple;
+}
+.heal{
+    display: flex;
+    align-items: center;
+}
+.heal h4{
+    color: rgb(75, 17, 75);
+    font-size: 20px;
+}
+
+.heal i{
+    font-size: 35px;
+    margin-left:40px;
+    padding: 10px;
+    color: white;
+} 
+
+
+
+/* ---------------department---------- */
+
+.depart-sec{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: rgb(231, 249, 249);
+}
+
+.depart-grid{
+    padding: 20px;
+}
+.depart-grid ul li {
+    list-style-type: none;
+}
+.depart-grid ul li a{
+    text-decoration: none;
+
+}
+
+.depart-grid span{
+    color: rgb(191, 34, 191);
+}
+.depart-grid h1{
+    margin-top: 15px;
+    font-size: 40px;
+}
+.depart-grid .pp{
+    margin-top: 20px;
+    font-size:19px;
+}
+
+.depart-grid .inpu-btn ul li{
+    list-style-type: none;
+    margin-top: 25px;
+    border: 1px solid black;
+    width: 160px;
+    background-color: blueviolet;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.depart-grid .inpu-btn ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.depart-img{
+    background-image: url('/Image/banners/deparimg.png');
+    height: 300px;
+    background-size: 100% 100%;
+    width: 100%;
+}
+
+
+.department-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.department-card {
+    /* background-color:rgb(253, 240, 240); */
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+    transition: transform 0.3s;
+    text-align: center;
+}
+
+.department-card:hover {
+    transform: translateY(-5px);
+}
+
+.department-card h4 {
+    margin: 15px 0 10px;
+    color:rgb(28, 4, 51);
+    font-size: 20px;
+}
+
+.department-card ul li{
+    list-style-type: none;
+    margin-top:20px;
+}
+.department-card ul li a{
+    color: rgb(162, 67, 250);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.department-card i{
+    font-size: 35px;
+    color: rgb(183, 132, 232);
+}
+
+
+/* -------------Doctors -----------*/
+
+.doctors-sec{
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+.doctor-part{
+    padding: 10px;
+    background-color: rgb(215, 249, 249);
+}
+.doctor-part h1{
+    margin-top: 20px;    font-size: 40px;
+}
+
+.doctor-part p{
+    margin-top: 30px;
+}
+
+.doc-img img{
+    width: 100%;
+    height: 300px;
+}
+.doctor-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.doctor-card {
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+    transition: transform 0.3s;
+    text-align: center;
+}
+
+.doctor-card:hover {
+    transform: translateY(-3px);
+}
+.find-doctor{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aqua;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.find-doctor button{
+    background-color: blueviolet;
+    color: white;
+    padding: 5px;
+    font-size: 17px;
+    align-items: center;
+}
+.doc-icon{
+    display: flex;
+    align-items: center;
+}
+.doc-icon i{
+    font-size: 30px;
+    color: white;
+}
+
+
+/* ----------Service---------------- */
+
+.services{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgb(194, 253, 253);
+}
+.our-service{
+    padding:50px;
+}
+
+.our-service h1{
+    margin-top: 18px;
+    font-size: 40px;
+}
+.ser-p{
+    font-size: 20px;
+    margin-top: 18px;
+}
+.our-service a{
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: blueviolet;
+    color: white;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+.our-service a:hover{
+    background-color: purple;
+}
+.ser-a{
+    margin-top: 25px;
+}
+.our-service-1 img{
+    width: 100%;
+    height: 350px;
+}
+
+.ser-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 25px;
+}
+.ser-content h1{
+    margin-top: 10px;
+    font-size: 40px;
+    color: rgb(93, 21, 93);
+}
+.ser-pp{
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.service-card {
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+    text-align: center;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.service-card h4 {
+    margin: 8px 0 10px;
+    color:rgb(28, 4, 51);
+    font-size: 20px;
+}
+.service-card i{
+    font-size: 30px;
+    color: rgb(155, 86, 219);
+}
+.service-card ul li{
+    list-style-type: none;
+    margin-top: 15px;
+}
+.service-card ul li a{
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.hospital-ser{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(184, 116, 248);
+    margin-top: 25px;
+}
+
+.user-ser{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+.user-ser i{
+    font-size: 30px;
+    padding: 10px;
+}
+.doc-service{
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    margin-top: 25px;
+    background-color: rgb(209, 254, 254);
+}
+.doc-ser-img img{
+    width: 100%;
+    height: 250px;
+}
+.doc-ser{
+    padding: 20px;
+}
+.doc-ser p{
+    margin-top: 20px;    
+}
+.doc-ser h1{
+    margin-top: 15px;
+    font-size: 35px;
+}
+.doc-ser ul li{
+    list-style-type: none;
+    margin-top: 24px;
+}
+.doc-ser ul li a{
+    text-decoration: none;
+    background-color: blueviolet;
+    color: white;
+    padding: 6px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.doc-ser ul li a:hover{
+    background-color: purple;
+}
+
+/* -----------------Contact--------------- */
+
+.contacts{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background-color: rgb(173, 251, 251);
+}
+.con-text{
+    padding: 40px;
+}
+.con-text h1{
+    font-size: 40px;
+    margin-top: 10px;
+}
+.con-text p{
+    margin-top: 20px;
+}
+.con-img img{
+    width: 100%;
+    height: 270px;
+}
+
+.contact-grid{
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    margin-top: 30px;
+    background-color: rgb(244, 250, 250);
+}
+
+.contact-card{
+    border: 0.5px solid rgb(195, 248, 248);
+}
+
+.con-card{
+    padding: 10px;
+}
+.con-card h2{
+    text-decoration: underline;
+}
+
+.con-card-1{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.con-card-1 i{
+    font-size: 23px;
+    padding: 19px;
+    color: blueviolet;
+}
+
+.con-form{
+    padding: 10px;
+}
+.con-form h2{
+    text-decoration: underline;
+}
+
+.c-form input,
+.c-form select,
+.c-form textarea{
+    margin: 8px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.inp-btn{
+    font-size: 20px;
+    padding: 5px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+}
+.c-form{
+    display: flex;
+}
+
+.contact-card iframe{
+    width: 100%;    
+    height: 300px;
+}
+.direct-btn{
+    font-size: 20px;
+    padding: 7px;
+    width: 100%;
+    border-radius: 20px;
+    margin-top:15px;
+    color: blueviolet;
+    border: none;
+}
+
+.cont-grid{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    background-color: rgb(131, 245, 245);
+    font-size: 20px;
+    margin-top: 30px;
+}
+.cont-card{
+    display: flex;
+    align-items: center;
+}
+.cont-card i{
+    font-size: 30px;
+    color: blueviolet;
+    padding: 15px;
+}
+
+/* --Book Appointment---------- */
+.book{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgb(153, 255, 255);
+}
+    
+.book-app1{
+    padding: 40px;
+}
+.book-app1 h1,
+.book-app1 p
+{
+    margin-top: 20px;
+}
+.book-app1 h1{
+    font-size: 40px;
+}
+    
+.book-app1 ul{
+    display: flex;
+}
+.book-app1 ul li{
+    list-style-type: none;
+}
+    
+.book-app1 ul li a{
+    text-decoration: none;
+}
+.book-app2 img{
+    width: 100%;
+    height: 220px;
+}
+    
+
+.appointment{
+    display: grid;
+    grid-template-columns: 62% 35%;
+    gap: 35px;
+    
+    margin-top: 30px;
+}
+.book-appoint1{
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5); 
+}
+.book-appoint1 h1{
+    font-size: 27px;
+    text-decoration: underline;
+}
+form{
+    margin-top: 20px;
+  
+}
+.form-group
+ {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+}
+
+.form-row .form-group {
+    flex: 1;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+input,
+textarea,
+select
+ {
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s ease;
+    box-sizing: border-box;
+}
+
+input:focus,
+textarea:focus,
+select:focus
+{
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+
+textarea {
+    min-height: 50px;
+}
+
+.btn-submit {
+    width: 100%;
+    padding: 12px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.btn-submit:hover {
+    background: #0056b3;
+}
+
+
+
+
+.book-appoint2{
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+.book-appoint2 i{
+    color: rgb(148, 68, 222);
+    padding: 4px;
+}
+.book-appoint2 h1{
+    text-decoration: underline;
+    font-size: 25px;
+}
+.clas{
+    font-weight: bold;
+}
+.book-text{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    margin-top: 10px;
+}
+
+.data-doc{
+    background-color:rgb(222, 248, 248);
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.data-doc p{
+    padding: 2px;
+}
+
+.data-doc2{
+    background-color: rgb(202, 250, 250);
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.data-doc2 p{
+    margin-top: 10px;
+    margin: 10px;
+}
+
+.last-page{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(168, 241, 241);
+    margin-top: 30px;
+    padding: 10px;
+}
+.last{
+    display: flex;
+    align-items: center;
+}
+.last i{
+    font-size: 40px;
+    color: #51a1f7;
+    padding: 10px;
+}

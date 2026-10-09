@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareWell Hospital</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <style>
+        @import url(./assets/font-awesome-4.7.0/css/font-awesome.css);
+        @import url(./CSS/global.css);
+        @import url(./CSS/print.css);
+        @import url(./CSS/responsive.css);
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="navbar">
+                <img src="/Image/banners/add.png" alt="logo">
+                <div class="navlogo">
+                    <h1>CareWell</h1>
+                    <p>H O S P I T A L</p>
+                </div>
+                <div class="navcontent">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="department.html">Department</a></li>
+                        <li><a href="doctor.html">Doctors</a></li>
+                        <li><a href="service.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbtn">
+                    <div class="navpar">
+                        <p><i class="fa fa-volume-control-phone" aria-hidden="true"></i>24/7 Helpline <br><span>+91 9876543210</span></p>
+                    </div>
+                    <div class="btn">
+                        <ul>
+                            <li><i class="fa-regular fa-calendar-plus"></i><a href="appointment.html">Book Appointment</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="icon">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- -------------Book Appointment------------- -->
+
+    <main class="container1">
+        <div class="book">
+            <div class="book-app1">
+                <ul>
+                    <li><a href="index.html">Home ></a></li>
+                    <li><a href="appointment.html">Book Appointment</a></li>
+                </ul>
+                <h1>Book Appointment</h1>
+                <p>Schedule your visit with our specialist doctors. We're hear for  your health</p>
+            </div>
+            <div class="book-app2">
+                <img src="/Image/banners/bookapoint.png" alt="">
+            </div>
+        </div>
+
+        <section class="appointment">
+            <div class="book-appoint1">
+                <h1><i class="fa fa-calendar" aria-hidden="true"></i>Appointment Details</h1>
+                <form id="letters">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Full Name:</label>
+                            <input type="text" id="name" placeholder="Enter Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address:</label>
+                            <input type="email" id="email" placeholder="Enter Your Email" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Phone Number:</label>
+                            <input type="number" id="phone" placeholder="+123456789" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="age">Age:</label>
+                            <input type="number" id="age" placeholder="Enter Your age">
+                        </div>
+                      
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="department">Select Department:</label>
+                            <select id="department" required>
+                                <option value="">-- Choose Department --</option>
+                                <option value="cardiology">Cardiology</option>
+                                <option value="neurology">Neurology</option>
+                                <option value="pediatrics">Pediatrics</option>
+                                <option value="orthopedics">Orthopedics</option>
+                            </select>
+                            <label for="Doctor">Select Doctors:</label>
+                            <select>
+                                <option hidden>Select Doctor</option>
+                                <option>Dr.Neha Kapoor</option>
+                                <option>Dr.Priya Sharma</option>
+                                <option>Dr.Arjun Metha</option>
+                                <option>Dr.Rahul Verma</option>
+                                <option>Dr.Ananya lyer</option>
+                            </select>
+                        </div>
+                    
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="date">Select Date:</label>
+                            <input type="date" id="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="time">Select Time</label>
+                            <input type="time" id="time" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Reason for visit:</label>
+                        <textarea id="message" cols="20" rows="1" placeholder="Write the reason for your visit"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Book Appointment</button>
+                </form>
+            </div>
+
+
+            <div class="book-appoint2">
+                <h1>  <i class="fa fa-calendar" aria-hidden="true"></i>Appointment Summary</h1>
+                <div>
+                    <div >
+                        <div class="book-text">
+                            <div><p><i class="fa fa-user-circle" aria-hidden="true"></i>Department</p></div>
+                            <div><p class="clas">Cardiology</p></div>
+                        </div>
+                        <hr>
+                        <div class="book-text">
+                            <div><p><i class="fa fa-user-circle" aria-hidden="true"></i>Doctor</p></div>
+                            <div><p class="clas">Dr.Rahul Sharma</p></div>
+                        </div>
+                        <hr>
+                        <div class="book-text">
+                            <div><p><i class="fa fa-stethoscope" aria-hidden="true"></i>Consultation Typr</p></div>
+                            <div><p class="clas">In-Person</p></div>
+                        </div>
+                        <hr>
+                        <div class="book-text">
+                            <div><p><i class="fa fa-calendar" aria-hidden="true"></i>Date</p></div>
+                            <div><p class="clas">12 June 2025</p></div>
+                        </div>
+                        <hr>
+                        <div class="book-text">
+                            <div><p> <i class="fa fa-clock-o" aria-hidden="true"></i>Time</p></div>
+                            <div><p class="clas">11:30 AM</p></div>
+                        </div>
+                        <hr>
+                    </div>
+                    <div>
+                        <div class="data-doc">
+                            <h4><i class="fa-solid fa-shield-heart"></i>WHy Choose Us?</h4>
+                            <p><i class="fa-regular fa-circle-check"></i>Experienced & Certified Doctors</p>
+                            <p><i class="fa-regular fa-circle-check"></i>Advanced Medical Facilities</p>
+                            <p><i class="fa-regular fa-circle-check"></i>Personalized Patient Care</p>
+                            <p><i class="fa-regular fa-circle-check"></i>Easy & Quick Appointment</p>
+                            <p><i class="fa-regular fa-circle-check"></i>24/7 Support</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="data-doc2">
+                            <h4><i class="fa-solid fa-shield-heart"></i>Need Help?</h4>
+                            <p>Our Support team is here to assist you.</p>
+                            <p>+91 9918765432</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <div class="last-page">
+            <div class="last">
+                <i class="fa fa-calendar" aria-hidden="true"></i>
+                <div>
+                    <h2>Easy Booking</h2>
+                    <p>Book your Appointment <br>in just a few clicks.</p>
+                </div> 
+            </div>
+            <hr>
+            <div class="last">
+                <i class="fa fa-clock-o" aria-hidden="true"></i>    
+                <div>
+                    <h2>Save Time</h2>
+                    <p>Choose your convenient <br>data & time.</p>
+                </div>
+            </div>
+            <hr>
+            <div class="last">
+                <i class="fa fa-user-circle" aria-hidden="true"></i>
+                <div>
+                    <h2>Expert Doctor</h2>
+                    <p>Consult with our experienced <br>specialist</p>
+                </div>
+            </div>
+            <hr>
+            <div class="last">
+                <i class="fa-solid fa-shield-heart"></i>
+                <div>
+                    <h2>Trusted Care</h2>
+                    <p>Your health is our <br>top priority.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="hospital.js"></script>
+</body>
+</html>
